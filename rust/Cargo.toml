@@ -1,0 +1,12 @@
+[package]
+name = "text-game"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+godot = { git = "https://github.com/godot-rust/gdext", branch = "master" }
+
+[lib]
+crate-type = ["cdylib"]
+
+# cargo build --target aarch64-apple-darwin

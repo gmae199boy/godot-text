@@ -1,5 +1,3 @@
 [gd_scene format=3 uid="uid://dhwfp4wxe52ux"]
 
-[node name="MainScene" type="Node2D"]
-
-[node name="TextGame" type="TextGame" parent="."]
+[node name="TextGame" type="TextGame"]

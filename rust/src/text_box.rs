@@ -26,9 +26,3 @@ impl INode2D for TextBox {
         godot_print!("{:?}", self);
     }
 }
-
-impl TextBox {
-    pub fn a() -> String {
-        "qqq".into()
-    }
-}
